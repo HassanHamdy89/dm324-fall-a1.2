@@ -1,0 +1,52 @@
+#p1{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    list-style-type: none;
+    border: 1px solid green;
+    background-color: grey;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+}
+.nav-right{
+    float: right;
+}
+.active{
+    background-color: green;
+    color:white;
+}
+h1{
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: linear-gradient(to right,red,yellow)
+
+}
+table{
+    border-collapse: collapse;
+
+}
+thead tr{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: grey;
+}
